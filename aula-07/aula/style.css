@@ -1,0 +1,26 @@
+.box1 {
+  background: #553344;
+  margin: 50px;
+  padding: 50px;
+  width: 500px;
+  height: 500px;
+  border-width: 10px 20px;
+  border-style: solid;
+  border-color: #e99d43;
+}
+
+.titulo1 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+.paragrafo {
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+}

@@ -1,0 +1,32 @@
+body {
+  background: #1a1900;
+}
+.lemon {
+  width: 50%;
+  height: 500px;
+  background-color: #fffee6;
+}
+.lemon-title {
+  color: #1a1900;
+  font-size: 48px;
+}
+
+.lemon-p {
+  color: #1a1900;
+  font-size: 32px;
+}
+
+.little-lemon {
+  max-width: 25%;
+  height: 200px;
+  background-color: #fff700;
+}
+.little-lemon-title {
+  color: #1a1900;
+  font-size: 24px;
+}
+
+.little-lemon-p {
+  color: #333100;
+  font-size: 20px;
+}

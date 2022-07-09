@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 7</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="titulo1">Imersão Front-end</h1>
+      <nav class="menu">
+        <ul class="menu-itens">
+          <li class="menu-item">
+            <a class="menu-link" href="#">Home</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link" href="#">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Seção 1</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+          reprehenderit porro perferendis, architecto facere vero nobis ea
+          harum, dignissimos natus culpa magnam veritatis nam animi eos nesciunt
+          distinctio modi illum.
+        </p>
+      </section>
+      <section>
+        <h2>Seção 2</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+          reprehenderit porro perferendis, architecto facere vero nobis ea
+          harum, dignissimos natus culpa magnam veritatis nam animi eos nesciunt
+          distinctio modi illum.
+        </p>
+      </section>
+      <article>
+        <h3>Autoria: Pessoa X</h3>
+        <p>Texto do blog</p>
+        <span>Data de publicação: 03/05/2022</span>
+      </article>
+      <form>
+        <div>
+          <label for="nome" class="legenda">Nome</label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Seu primeiro nome"
+            required
+            class="input-texto"
+          />
+        </div>
+        <div>
+          <label for="sobrenome" class="legenda">Sobrenome</label>
+          <input
+            type="text"
+            name="sobrenome"
+            id="sobrenome"
+            placeholder="Seu sobrenome"
+            required
+            class="input-texto"
+          />
+        </div>
+        <div>
+          <label for="email" class="legenda">E-mail</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="seuemail@seuprovedor.com"
+            required
+            class="input-texto"
+          />
+        </div>
+        <div>
+          <label for="senha" class="legenda">Senha</label>
+          <input
+            type="password"
+            name="senha"
+            id="senha"
+            placeholder="Sua senha"
+            required
+            class="input-texto"
+          />
+        </div>
+        <div>
+          <label for="idade" class="legenda">Idade</label>
+          <input
+            type="number"
+            name="idade"
+            id="idade"
+            placeholder="Sua idade"
+            required
+            class="input-texto"
+          />
+        </div>
+        <div>
+          <label for="categoria">Selecione uma categoria:</label>
+          <select name="categoria" id="categoria" required class="select">
+            <option disabled selected>Selecione uma opção</option>
+            <option value="a">Categoria A</option>
+            <option value="b">Categoria B</option>
+          </select>
+        </div>
+        <div>
+          <button class="botao">Enviar</button>
+          <button type="reset" class="botao">Limpar</button>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <span>Todos os direitos reservados.</span>
+    </footer>
+  </body>
+</html>

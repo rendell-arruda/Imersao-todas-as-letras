@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 3</title>
+  </head>
+
+  <body>
+    <form action="">
+      <div>
+        <label for="nome">Nome </label>
+        <input
+          type="text"
+          name="nome"
+          id="nome"
+          placeholder="Seu primeiro nome"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="sobrenome">Sobrenome </label>
+        <input
+          type="text"
+          name="sobrenome"
+          id="sobrenome"
+          placeholder="Seu sobrenome"
+          required
+        />
+      </div>
+      <div>
+        <label for="email">Email </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="seuemail@seuprovedor.com"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="senha">Senha</label>
+        <input
+          type="password"
+          name="senha"
+          id="senha"
+          placeholder="Sua senha"
+          required
+        />
+      </div>
+      <div>
+        <label for="idade">Idade </label>
+        <input
+          type="number"
+          name="idade"
+          id="idade"
+          placeholder="Sua idade"
+          required
+        />
+      </div>
+
+      <div>
+        País
+        <label for="pais">
+          <input type="radio" name="pais" id="pais" value="Brasil" />Brasil
+        </label>
+        <label for="pais">
+          <input type="radio" name="pais" id="outros" value="outros" />Outros
+        </label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="termosDeUso" id="termosDeUso" required />
+        <label for="termosDeUso">Aceito os termos de uso </label>
+      </div>
+
+      <div>
+        <button>Enviar</button>
+        <button type="reset">Limpar</button>
+      </div>
+    </form>
+  </body>
+</html>

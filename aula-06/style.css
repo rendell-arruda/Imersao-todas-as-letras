@@ -1,0 +1,26 @@
+.box {
+  background: #a09d81;
+  background-image: url(/aula-06/chromatograph.jpg);
+  background-repeat: no-repeat;
+  /*               eixo x   eixo y */
+  background-position: center center;
+  background-size: cover;
+  width: 900px;
+  height: 800px;
+}
+
+.box-2 {
+  /* gradientes */
+  background: #a09d81;
+  /* background-image: linear-gradient(45deg, #663399, #e021ba); */
+  background: radial-gradient(#663399, #e021ba);
+  width: 200px;
+  height: 200px;
+  margin: 20px 40px;
+  padding: 20px 40px;
+}
+
+.texto {
+  color: #fff;
+  font-size: 50px;
+}

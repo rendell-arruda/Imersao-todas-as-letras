@@ -1,0 +1,134 @@
+html,
+body,
+header,
+section,
+main,
+form,
+label,
+div,
+nav,
+footer,
+h1,
+h2,
+p,
+span,
+ul,
+li,
+a {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+/* HEADER */
+.header {
+  background-color: #2f117f;
+  padding: 20px;
+}
+
+.titulo {
+  font-weight: 900;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+/* NAV */
+.menu {
+  display: inline-block;
+  background-color: #6126ff;
+  margin: 10px 0;
+}
+
+/* ul */
+.menu-itens {
+  list-style: none;
+}
+
+/* li */
+.menu-item {
+  padding: 10px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+/* SECAO */
+.secao {
+  padding: 20px;
+}
+
+/* H2 */
+.sub-titulo {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+/* H2 P */
+.sub-titulo-desc {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+/* FORM */
+.legenda {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.input-texto {
+  font-size: 14px;
+  border: 2px solid #6126ff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.select {
+  margin-bottom: 20px;
+  border-width: 2px;
+  border: 2px solid #6126ff;
+  padding: 10px;
+  border-radius: 5px;
+  color: #6126ff;
+}
+
+.btn-enviar {
+  border: none;
+  background-color: #6126ff;
+  color: #f1d703;
+  font-weight: 700;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-limpar {
+  border: none;
+  background-color: #f1d703;
+  color: #6126ff;
+  font-weight: 700;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  /* margin-bottom: 20px; */
+}
+
+.footer {
+  background-color: #6126ff;
+  padding: 20px;
+}
+
+.footer span {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+}

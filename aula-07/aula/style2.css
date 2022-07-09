@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.header {
+  background-color: #d3d3ff;
+  padding: 10px;
+}
+
+.titulo1 {
+  margin: 0;
+  font-size: 30px;
+}
+
+.menu {
+  background-color: #c6e2ff;
+}
+
+.menu-itens {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu-item {
+  margin: 5px;
+}
+
+.menu-link {
+  color: #39413b;
+  text-decoration: none;
+}
+
+.legenda {
+  color: #e99d4e;
+}
+.input-texto {
+  border-width: 3px;
+  border-style: solid;
+  border-color: #e99d4e;
+  border-radius: 5px;
+  color: #e99d4e;
+}
+
+.select {
+  border-width: 3px;
+  border-style: solid;
+  border-color: #e99d4e;
+  border-radius: 5px;
+}
+
+.botao {
+  background-color: #e99d4e;
+  color: #000;
+  padding: 5px;
+  border-width: 0;
+  border-style: solid;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}

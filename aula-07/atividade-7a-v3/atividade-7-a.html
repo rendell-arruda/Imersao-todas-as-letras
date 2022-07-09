@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Atividade 7</title>
+    <link rel="stylesheet" href="style3.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="titulo">Todas as Letras Escola</h1>
+      <nav class="menu">
+        <ul class="menu-itens">
+          <li class="menu-item">
+            <a href="#">Home</a>
+          </li>
+          <li class="menu-item">
+            <a href="#">Sobre</a>
+          </li>
+          <li class="menu-item">
+            <a href="#">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="secao">
+        <h2 class="sub-titulo">Inscreva-se</h2>
+        <p class="sub-titulo-desc">
+          Preencha todos os campos abaixo. Todos campos são obrigatórios:
+        </p>
+        <form>
+          <div>
+            <label for="nome" class="legenda">Nome:</label>
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="Seu primeiro nome"
+              class="input-texto"
+              required
+            />
+          </div>
+          <div>
+            <label for="sobrenome" class="legenda">Sobrenome:</label>
+            <input
+              type="text"
+              name="sobrenome"
+              id="sobrenome"
+              placeholder="Seu sobrenome"
+              class="input-texto"
+              required
+            />
+          </div>
+          <div>
+            <label for="email" class="legenda">E-mail:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="seuemail@seuprovedor.com"
+              class="input-texto"
+              required
+            />
+          </div>
+          <div>
+            <label for="senha" class="legenda">Senha:</label>
+            <input
+              type="password"
+              name="senha"
+              id="senha"
+              placeholder="Sua senha"
+              class="input-texto"
+              required
+            />
+          </div>
+          <div>
+            <label for="idade" class="legenda">Idade:</label>
+            <input
+              type="number"
+              name="idade"
+              id="idade"
+              placeholder="Sua idade"
+              class="input-texto"
+              required
+            />
+          </div>
+          <div>
+            <label for="categoria" class="legenda"
+              >Selecione uma categoria:</label
+            >
+            <select name="categoria" id="categoria" class="select" required>
+              <option disabled selected>Selecione uma opção</option>
+              <option value="a">Categoria A</option>
+              <option value="b">Categoria B</option>
+            </select>
+          </div>
+          <div>
+            <button class="btn-enviar">Enviar</button>
+            <button type="reset" class="btn-limpar">Limpar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <span>Todos os direitos reservados.</span>
+    </footer>
+  </body>
+</html>

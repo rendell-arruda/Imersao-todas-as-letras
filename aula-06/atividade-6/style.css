@@ -1,0 +1,33 @@
+body {
+  background: #f2fafa;
+  background-image: url('./chemistry2.jfif');
+  background-repeat: repeat-x repeat-y;
+}
+
+.box {
+  width: 700px;
+  height: 500px;
+  margin: 30px;
+  padding: 50px;
+  background-image: url(./flame.jpg);
+  background-size: cover;
+}
+
+.subtitle {
+  color: #fae690;
+  font-size: 36px;
+}
+
+.subtitle-txt {
+  color: #f8dd65;
+  font-size: 26px;
+}
+
+.box2 {
+  width: 700px;
+  height: 500px;
+  margin: 30px;
+  padding: 50px;
+  background-image: url(./testeflame2.png);
+  background-size: cover;
+}

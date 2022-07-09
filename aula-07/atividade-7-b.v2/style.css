@@ -1,0 +1,95 @@
+html,
+body,
+header,
+section,
+main,
+form,
+label,
+div,
+nav,
+footer,
+h1,
+h2,
+p,
+span,
+ul,
+li,
+a {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* HEADER */
+.header {
+  background-color: #191919;
+  padding: 40px 40px 32px;
+}
+
+.titulo {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+/* SECAO*/
+.secao {
+  padding: 40px;
+}
+
+/* H2 */
+.login-desc {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+.form {
+  margin-bottom: 40px;
+}
+.form-input {
+  margin-bottom: 20px;
+}
+
+/* FORM*/
+.legenda {
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.input-texto {
+  margin-left: 20px;
+  font-size: 16px;
+  line-height: 1.2;
+  border: 2px solid #5c8cff;
+  color: #979797;
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+
+.botao {
+  border: 2px solid #ff9f2e;
+  background-color: #ffd702;
+  color: #000000;
+  padding: 8px 12px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
+  border-radius: 3px;
+  cursor: pointer;
+}
+/* FOOTER */
+.footer {
+  background-color: #5c8cff;
+  padding: 40px;
+}
+
+.footer span {
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+}

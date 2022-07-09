@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade 3c</title>
+</head>
+
+<body>
+  <h1>Cadastro de Alunos</h1>
+
+  <form action="#">
+    <div>
+      <label for="nome">Nome</label>
+      <input type="text" name="nome" id="nome" placeholder="O seu nome completo" required>
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="O seu email" required>
+    </div>
+    <div>
+      <label for="password">Senha</label>
+      <input type="password" name="password" id="password" placeholder="Digite sua senha" required>
+    </div>
+    <div>
+      <label for="idade">Idade</label>
+      <input type="number" name="idade" id="idade" placeholder="Selecione sua idade?" required>
+    </div>
+    <div>
+      <p>Você estuda na nossa escola?</p>
+      <label for="estudante"> <input type="radio" name="estudante" id="estudante" value="estudante" checked>Sou estudante</label>
+      <label for="naoEstudante"> <input type="radio" name="estudante" id="naoEstudante" value="naoEstudante" required>Ainda não sou estudante</label>
+    </div>
+    <div>
+      <label for="termos"><input type="checkbox" name="termos" id="termos" required> Aceito os termos de uso.</label>
+    </div>
+    <button>Enviar</button>
+  </form>
+</body>
+
+</html>
