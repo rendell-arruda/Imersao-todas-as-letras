@@ -27,3 +27,20 @@ Os projetos foram divididos nas seguintes aulas:
 - [x] Aula 11 - Operadores abreviados, instruções condicionais e estruturas de repetição;
 - [ ] Aula 12 - Tag script, console, typeof, IIFE e JavaScript moderno;
 - [ ] Aula 13 - Métodos de array;
+
+### 🤝 Colaboradores
+
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/lucasjs">
+        <img src="https://avatars.githubusercontent.com/u/14945222?v=4" width="100px;" alt="Foto do Lucas J S no GitHub"/ target="_blanck" ><br>
+        <sub>
+          <b>Lucas J S - Instrutor</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
