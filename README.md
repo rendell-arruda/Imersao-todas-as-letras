@@ -25,8 +25,8 @@ Os projetos foram divididos nas seguintes aulas:
 - [x] Aula 9 - Variáveis, tipos e operadores em JavaScript;
 - [x] Aula 10 - Clean code, funções e operadores lógicos;
 - [x] Aula 11 - Operadores abreviados, instruções condicionais e estruturas de repetição;
-- [ ] Aula 12 - Tag script, console, typeof, IIFE e JavaScript moderno;
-- [ ] Aula 13 - Métodos de array;
+- [x] Aula 12 - Tag script, console, typeof, IIFE e JavaScript moderno;
+- [x] Aula 13 - Métodos de array;
 
 ### 🤝 Colaboradores
 
